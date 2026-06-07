@@ -1,4 +1,5 @@
 package padroesestruturais.proxy;
 
-public class BancoDeDados {
+public interface BancoDeDados {
+    double getSalarioJogador(String nomeJogador);
 }
